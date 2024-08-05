@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Oscar Matías</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Oscar Gonzalez</h1>
+            <h2>Estudiante de ingeniería electromecánica | Desarrollador Frontend | Hardware </h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/oscarmatiasg/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CAD</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Análisis de Datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Educación Primaria</h4>
+                        <span class="casa">Centro Educativo Inmaculada Concepción</span>
+                        <span class="fecha">2001 - 2008</span>
+                        <p>Caaguazú, Paraguay</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Secundaria</h4>
+                        <span class="casa">Centro Educativo Inmaculada Concepción</span>
+                        <span class="fecha">2009 - 2014</span>
+                        <p>Bachiller Ciencias Básicas</p>
+                        <p>Caaguazú, Paraguay</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Universitaria</h4>
+                        <span class="casa">Universidad Nacional de Asunción, Facultad de Ingeniería</span>
+                        <span class="fecha">2015 - actualidad</span>
+                        <p>Ingeniería Electromecánica</p>
+                        <p>San Lorenzo, Paraguay</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <h3>Publicación Bibliográfica</h3>
+                    <div class="item izq">
+                        <p>Roman A, Jara A, Gonzalez O, Kurita J; GNSS technologies integrated to high altitude ballon payloads and other research applications as a tool for STEAM education in Paraguay. In: United Nations / Argentina Workshop on the Applications of Global Navigation Satellite Systems</p>
+                        <span class="fecha">2018 - Falda Carmen, Argentina</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <p>Gonzalez O; Proyecto Arapy. In: IV Simposio Internacional De Innovación, 2018 Encarnación La investigación como proceso de integración entre la Ciencia, el Arte, la Tecnología y la Sociedad</p>
+                        <span class="fecha">2018 - Encarnación, Paraguay</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <p>Gonzalez O, Samaniego G, Kurita J; “Engagement in Practice: Final design projects on high altitude balloon payload, integrated with low cost open source hardware, a tool for STEM education in rural Paraguay, a case study” 126th ASEE Annual Conference andExposition,</p>
+                        <span class="fecha">2019 - Tampa, Florida, Estados Unidos</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <p>Gonzalez O, Samaniego G, Gonzalez M, Vega F, Kurita J; ARAPY project: high altitude balloons payload design as a tool to reduce the access gapin bring steam education to rural Paraguay; 70th International Astronautical Congress (IAC),</p>
+                        <span class="fecha">2019 - Washington D.C., Estados Unidos</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Colaborador</h4>
+                        <span class="casa">Agencia Espacial del Paraguay</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>Participación en el proyecto globo sonda</p>
+                        <p>Asunción, Paraguay</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Fundador y Director General</h4>
+                        <span class="casa">Proyecto arapy</span>
+                        <span class="fecha">2017 - 2020</span>
+                        <p>Desarrollo de picosatelite cansats y globo sondas</p>
+                        <p>Publicación de articulos tecnicos</p>
+                        <p>Disertación y charlas nacionales e internacionales</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Coordinador de Alianzas y Contenidos</h4>
+                        <span class="casa">Tigo Campus Party | Floyd SA</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Paraguay, Argentina y Uruguay</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Encargado de Logistica e Insumos</h4>
+                        <span class="casa">Puro Limpio SA</span>
+                        <span class="fecha">2024</span>
+                        <p>Auxiliar de operaciones y posterior ascenso</p>
+                        <p>Asunción, Paraguay</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Mentor</h4>
+                        <span class="casa">CIDIT</span>
+                        <span class="fecha">2024 - actualidad</span>
+                        <p>Bootcamp Desarrollo Web con Metodología Python</p>
+                        <p>Asunción, Paraguay</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <h3>Reconocimientos</h3>
+                    <div class="item der">
+                        <span class="casa">Municipalidad de Caaguazú</span>
+                        <p>Joven Destacado de la Ciudad de Caaguazú</p>
+                        <span class="fecha">2017</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                     <div class="item der">
+                        <span class="casa">Agencia Espacial del Paraguay</span>
+                        <p>Reconocimiento al liderazgo en el desarrollo del “Proyecto Arapy” por la Agencia Espacial del Paraguay en el marco del I Congreso Aeroespacial del Paraguay</p>
+                        <span class="fecha">2017</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>  
+                    <div class="item der">
+                        <span class="casa">Ten Outstanding Young Persons - JCI</span>
+                        <p>Ganador en la categoria desarrollo cientifico y/o tecnológico de los premios TOYP 2018 organizada por Junior Chamber International de Ciudad del Este</p>
+                        <span class="fecha">2018</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- SECCION SOBRE MI -->
+   <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p><span>Hola, soy Oscar Matías Gonzalez.</span> Soy un profesional con experiencia en la coordinación de proyectos comunitarios multidisciplinarios e interinstitucionales, con un enfoque en la exploración aeroespacial mediante pico-satélites. Mi trabajo se centra en integrar estudiantes y profesionales de diversas instituciones y en motivar a los jóvenes hacia carreras relacionadas con la educación STEAM. He colaborado con una amplia gama de partes interesadas, desde estudiantes hasta investigadores y organizaciones, para facilitar el acceso a la educación y la tecnología en comunidades con recursos limitados. Además, he desempeñado un papel clave en la coordinación y organización de eventos de gran envergadura, como el Campus Party de Paraguay, donde fui coordinador de alianzas y comunidades. Me he destacado en ventas y asesoramiento de créditos, lo que amplía mi versatilidad profesional. Tengo experiencia en logística e insumos, donde comencé como auxiliar de operaciones y logré un ascenso. Actualmente, soy mentor en desarrollo web con metodología Python y me dedico a proyectos freelancer en desarrollo web y hardware en Asunción, Paraguay. </p>
+        <div class="sobremi">
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            0986 629 124
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            oscarmatiasgch@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            San Lorenzo, Paraguay
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <a href="docs/mi_cv.pdf" download>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </a>
+    </div>
+</section>
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Freelance</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Project Management</h3>
+                        <p>Iniciativas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño CAD</h3>
+                        <p>Mecánica</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Industrial</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo de Software</h3>
+                        <p>Informática</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo de Hardware</h3>
+                        <p>Electrónica</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/oscarmatiasg/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
